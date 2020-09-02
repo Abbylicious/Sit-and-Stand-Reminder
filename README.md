@@ -1,1 +1,0 @@
-# Sit-and-Stand-Reminder
