@@ -19,9 +19,18 @@ namespace Sit_and_Stand_Reminder
             // Setup context menu
             ContextMenu contextMenu = new ContextMenu();
 
+            // Setup menuItem0
+            MenuItem menuItem0 = new MenuItem();
+            menuItem0.Index = 0;
+            menuItem0.Text = "Icon by https://www.paomedia.com/";
+            menuItem0.Enabled = false;
+
+            // Add menuItem0 to context menu
+            contextMenu.MenuItems.AddRange(new MenuItem[] { menuItem0 });
+
             // Setup menuItem1
             MenuItem menuItem1 = new MenuItem();
-            menuItem1.Index = 0;
+            menuItem1.Index = 1;
             menuItem1.Text = "Add to startup";
             menuItem1.Click += new EventHandler(menuItem1_Click);
 
@@ -30,7 +39,7 @@ namespace Sit_and_Stand_Reminder
 
             // Setup menuItem2
             MenuItem menuItem2 = new MenuItem();
-            menuItem2.Index = 0;
+            menuItem2.Index = 2;
             menuItem2.Text = "Remove from startup";
             menuItem2.Click += new EventHandler(menuItem2_Click);
 
@@ -39,7 +48,7 @@ namespace Sit_and_Stand_Reminder
 
             // Setup menuItem3
             MenuItem menuItem3 = new MenuItem();
-            menuItem3.Index = 0;
+            menuItem3.Index = 3;
             menuItem3.Text = "Exit";
             menuItem3.Click += new EventHandler(menuItem3_Click);
 
