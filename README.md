@@ -3,3 +3,5 @@
 A simple app that reminds you to alternate between standing and sitting every 40 and 20 minutes, respectively.
 
 Can be added to Windows startup.
+
+Icon by https://www.paomedia.com/
