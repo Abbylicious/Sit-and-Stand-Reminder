@@ -2,7 +2,7 @@
 
 A simple app that reminds you to alternate between standing and sitting every 40 and 20 minutes, respectively.
 
-If you're using Windows 10, right click on the action center on the far-right of the taskbar and turn off focus assist. That way the notifications can get through while playing games, one of the best times to have these notifications on your side!
+If you're using Windows 10, you'll have to turn off focus assist while playing games which is one of the best uses for these notifications. Got to Settings from the start menu and search focus assist. It can be turned off as well as the automatic rules that activate it while playing games.
 
 Can be added to Windows startup.
 
